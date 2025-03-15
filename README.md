@@ -38,7 +38,7 @@ To use the BIP39 Missing Word Finder, follow these steps:
    
 2. Run the script to find the missing word:
    ```bash
-   node bip39words.js
+   node index.js
    ```
 
 3. The script will output the complete mnemonic once the missing word is found, along with the missing word's position and the corresponding public key.
