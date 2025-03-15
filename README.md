@@ -50,3 +50,26 @@ This project uses the derivation path `m/44'/314159'/0'` to extract the private 
 ## Example
 
 Given the following mnemonic with a missing word:
+
+```
+loud swift dose fit act arrive behind muffin strong blast ring dumb __ project pride strategy sustain battle cushion fiction hair text benefit wood
+```
+
+The output will be:
+
+```
+loud swift dose fit act arrive behind muffin strong blast ring dumb foot project pride strategy sustain battle cushion fiction hair text benefit wood
+Missing word is: foot
+After 12 position
+Public Key: GAIVN5LTUFJSGFOX4KVMRVYYS3GK3N65VXONH43JRB2EZWMXDAW623LC
+Secret Key: SBPKWXJ4CQY2TPFSGHZBNOACEMQK6AINNMJJSCCUA5TX5QC3SBBJYWJF
+Valid mnemonic counts: 209
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License
